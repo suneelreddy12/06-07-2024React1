@@ -1,0 +1,62 @@
+/* src/components/PriceCard.css */
+
+.price-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.2s;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+}
+
+.price-card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.price-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #555;
+}
+
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.price-card li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.price-card .included {
+  color: #000;
+}
+
+.price-card .excluded {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.price-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.price-card button:hover {
+  background-color: #0056b3;
+}
